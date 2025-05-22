@@ -18,7 +18,7 @@ plt.style.use('seaborn-v0_8')
 # Convertit le prix de FCFA en USD
 def fcfa_to_usd(fcfa):
     """Convertit le prix de FCFA en USD"""
-    return fcfa / 600
+    return fcfa / 583
 
 # Chargement des données
 @st.cache_data
